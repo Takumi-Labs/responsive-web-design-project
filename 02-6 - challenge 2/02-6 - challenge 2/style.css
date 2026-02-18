@@ -29,7 +29,7 @@ body {
   background-color: var(--color-blue);
   color: var(--color-white);
   padding: 50px;
-  min-width: 600px;
+  min-width: 800px;
 }
 
 img {
@@ -40,12 +40,13 @@ img {
 
 .second-container {
   max-width: 60%;
-  margin-left: 40px;
+  margin-left: 0px;
 }
 
 .second-header {
   color: var(--color-blue);
 }
+
 .third-container {
   display: flex;
   flex-direction: column;
@@ -86,7 +87,7 @@ a {
   background-color: #38cfd9;
   color: var(--color-blue);
   font-weight: 900;
-  padding: 15px;
+  padding: 10px 25px;
   border-radius: 25px;
   text-decoration: none;
 }
