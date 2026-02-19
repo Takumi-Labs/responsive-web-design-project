@@ -26,14 +26,26 @@ body {
 .nav {
   background-color: var(--color-deem);
   padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.logo {
+  width: 80px;
+  margin-top: 7px;
 }
 
 .nav-list {
   display: flex;
   gap: 20px;
-  justify-content: center;
   list-style-type: none;
 }
+
+.second-list {
+  margin-right: 100px;
+}
+
 .nav-list a {
   padding: 20px;
   display: inline-block;
