@@ -4,9 +4,9 @@
 :root {
   --color-light-blue: #38cfd9;
   --color-blue: #23424a;
+  --color-deem: #3d606f;
   --color-black: #000000;
   --color-white: #ffffff;
-  --font-family: "Times New Roman", Times, serif;
 }
 
 /* GLOBAL STYLES
@@ -20,8 +20,43 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
+}
+
+.nav {
+  background-color: var(--color-deem);
+  padding: 10px 15px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  list-style-type: none;
+}
+.nav-list a {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-item {
+  color: var(--color-white);
+}
+
+ul {
+  margin: 0;
+}
+
+.sign-up {
+  color: var(--color-blue);
+  background-color: var(--color-white);
+  border-radius: 25px;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+  opacity: 0.75;
 }
 
 .first-container {
@@ -29,22 +64,23 @@ body {
   background-color: var(--color-blue);
   color: var(--color-white);
   padding: 50px;
-  min-width: 800px;
+  min-width: 500px;
 }
 
 img {
-  width: 50%;
+  width: 90%;
   align-self: flex-start;
-  margin-right: 55px;
+  margin-right: 90px;
 }
 
 .second-container {
-  max-width: 60%;
-  margin-left: 0px;
+  max-width: 55%;
+  margin-left: 40px;
 }
 
 .second-header {
   color: var(--color-blue);
+  font-size: 35px;
 }
 
 .third-container {
@@ -57,10 +93,12 @@ img {
   gap: 10px;
   margin-top: 20px;
   margin-left: 50px;
+  justify-content: space-between;
 }
 
 .main-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .flex-container {
@@ -68,21 +106,20 @@ img {
   text-align: center;
 }
 
-.top,
-.bottom {
-  width: 100%;
+header p {
+  width: 70%;
 }
+
 .top {
-  font-size: 30px;
-  width: 50%;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .bottom {
   margin-bottom: 50px;
-  width: 50%;
 }
 
-a {
+.btn {
   display: inline-block;
   background-color: #38cfd9;
   color: var(--color-blue);
