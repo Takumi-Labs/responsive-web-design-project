@@ -1,0 +1,64 @@
+/* CUSTOM PROPERTIES
+---------------------------- */
+:root {
+  --color-plain: #f3eed9;
+  --color-brown: #824936;
+  --color-dark: #222c2a;
+  --color-white: #ffffff;
+}
+
+/* GLOBAL STYLES
+----------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  color: var(--color-brown);
+  background-color: var(--color-plain);
+  padding: 100px 10px;
+}
+
+.heading,
+.sub-heading {
+  text-align: center;
+}
+
+.heading {
+  font-size: 25px;
+}
+
+.sub-heading {
+  color: var(--color-brown);
+  font-size: 25px;
+}
+
+.main-content {
+  display: flex;
+  text-align: left;
+  gap: 50px;
+}
+
+.part-one {
+  color: var(--color-dark);
+}
+
+.part-two {
+  color: var(--color-white);
+  background-color: var(--color-dark);
+}
+
+.part-three {
+  color: var(--color-plain);
+  background-color: var(--color-brown);
+}
+
+main .main-content {
+  padding: 70px 100px;
+}
