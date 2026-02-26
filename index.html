@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Indie+Flower&family=Italianno&family=Kaushan+Script&family=Ms+Madi&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oleo+Script:wght@400;700&family=Readex+Pro:wght@160..700&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -15,28 +21,30 @@
         <li><a class="nav-item" href="#">HOME</a></li>
         <li><a class="nav-item" href="#">ABOUT</a></li>
         <li><a class="nav-item" href="#">CONTACT</a></li>
-      </ul>
-      <ul class="nav-list second-list">
+
         <li><a class="nav-item" href="#">SIGN IN</a></li>
         <li><a href="#" class="nav-item sign-up">SIGN UP</a></li>
       </ul>
     </nav>
-    <header>
+    <header class="first-container">
       <div>
-        <h1>Responsive layouts don’t have to be a struggle</h1>
+        <h1>
+          Responsive layouts
+          <span class="heading-part">don’t have to be a struggle</span>
+        </h1>
       </div>
-      <div>
+      <div class="heading-text">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <a href="#">I want to learn</a>
+        <a href="#" class="btn">I want to learn</a>
       </div>
     </header>
     <main>
-      <section>
+      <section class="second-container">
         <div>
-          <h2>Mobile-first</h2>
+          <h2 class="title">Mobile-first</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -44,7 +52,7 @@
           </p>
         </div>
         <div>
-          <h2>Efficient</h2>
+          <h2 class="title">Efficient</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -52,7 +60,7 @@
           </p>
         </div>
         <div>
-          <h2>Done right</h2>
+          <h2 class="title">Done right</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -60,9 +68,9 @@
           </p>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>It doesn’t have to be so hard</h2>
+      <section class="third-container">
+        <div class="third-main-text">
+          <h2 class="title">It doesn’t have to be so hard</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -84,32 +92,35 @@
           </p>
         </div>
         <div>
-          <div>
+          <div class="motivation">
             <h2>Break it down</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
-          <div>
+          <div class="motivation">
             <h2>Work your way up</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div>
+          <div class="motivation">
             <h2>You did it!</h2>
-            <p></p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <h3>just scratching the surface</h3>
-      <div>
-        <div>
-          <h4>About our company</h4>
+    <footer class="footer">
+      <h3 class="footer-title">just scratching the surface</h3>
+      <div class="fourth-container">
+        <div class="footer-main-text">
+          <h4 class="title">About our company</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -117,16 +128,16 @@
           </p>
         </div>
         <div>
-          <h4>Getting around</h4>
-          <ul>
+          <h4 class="title">Getting around</h4>
+          <ul class="list-items">
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
           </ul>
         </div>
         <div>
-          <h4>Other things</h4>
-          <ul>
+          <h4 class="title">Other things</h4>
+          <ul class="list-items">
             <li>Lorem ipsum</li>
             <li>dolor</li>
             <li>sit amet</li>
@@ -134,8 +145,8 @@
           </ul>
         </div>
         <div>
-          <h4>And more</h4>
-          <ul>
+          <h4 class="title">And more</h4>
+          <ul class="list-items">
             <li>Lorem ipsum</li>
             <li>dolor</li>
             <li>sit amet</li>

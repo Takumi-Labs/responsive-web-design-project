@@ -1,7 +1,153 @@
 /* CUSTOM PROPERTIES
 ------------------------------ */
+:root {
+  --color-navy-blue: #2e323f;
+  --color-dark-blue: #3b4050;
+  --color-dim-yellow: #a59678;
+  --color-plain: #f1f1f1;
+  --color-white: #ffffff;
+}
 
 /* GLOBAL STYLES
 ------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.nav {
+  background-color: var(--color-navy-blue);
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.logo {
+  width: 80px;
+  margin-top: 13px;
+  margin-left: 100px;
+}
+
+.nav-list {
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  list-style-type: none;
+  margin: 0;
+}
+.nav-list a {
+  color: var(--color-white);
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.sign-up {
+  background-color: var(--color-dim-yellow);
+  border-radius: 30px;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+  opacity: 0.75;
+}
+
+.first-container,
+.second-container,
+.third-container,
+.fourth-container {
+  display: flex;
+}
+
+.first-container {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+  padding: 40px;
+  font-size: 40px;
+}
+
+.heading-part {
+  color: var(--color-dim-yellow);
+}
+
+.heading-text {
+  padding-top: 190px;
+  font-size: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--color-dim-yellow);
+  color: var(--color-white);
+  font-weight: 700;
+  padding: 5px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.second-container {
+  background-color: var(--color-plain);
+  padding: 80px;
+  gap: 100px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.title {
+  color: var(--color-dim-yellow);
+}
+
+.third-container {
+  font-size: 20px;
+  padding: 60px 80px;
+  gap: 50px;
+}
+
+.third-main-text {
+  max-width: 60%;
+}
+
+.motivation {
+  color: var(--color-white);
+  background-color: var(--color-dark-blue);
+  margin: 15px;
+  padding: 5px 50px;
+  text-align: center;
+}
+
+.title {
+  color: var(--color-dim-yellow);
+}
+
+.footer {
+  background-color: var(--color-dark-blue);
+  padding: 80px;
+  gap: 100px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.fourth-container {
+  gap: 10px;
+  text-align: left;
+}
+
+.footer-title {
+  color: var(--color-white);
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.footer-main-text {
+}
+
+.list-items {
+  list-style-type: none;
 }
