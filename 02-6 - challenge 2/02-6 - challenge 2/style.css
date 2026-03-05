@@ -81,7 +81,7 @@ ul {
   min-width: 500px;
 }
 
-img {
+.img {
   width: 90%;
   align-self: flex-start;
   margin-right: 90px;
@@ -146,4 +146,20 @@ header p {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+@media (max-width: 600px) {
+  .first-container,
+  .main-container {
+    display: block;
+  }
+
+  .img,
+  .logo {
+    width: 100%;
+  }
+
+  .img {
+    margin-top: 2em;
+  }
 }
